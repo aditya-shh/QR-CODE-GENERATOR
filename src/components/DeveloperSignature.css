@@ -1,0 +1,16 @@
+.developer-signature {
+  font-size: 12px;
+  color: #888;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+}
+
+.developer-signature span {
+  font-weight: 700;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.developer-signature:hover span {
+  color: #6366f1;
+}

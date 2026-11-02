@@ -1,0 +1,160 @@
+{
+  "alex-morgan-lead": {
+    "id": "alex-morgan-lead",
+    "fullName": "Alex Morgan",
+    "phoneNumber": "+1 (555) 019-2834",
+    "jobTitle": "Creative Director & Full-Stack Engineer",
+    "company": "Shape Studio Inc.",
+    "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&h=400&q=80",
+    "bannerColor": "#8B80E8",
+    "themeId": "soft-lavender",
+    "qrMode": "interactive",
+    "fields": [
+      {
+        "id": "f_email",
+        "key": "email",
+        "label": "Email",
+        "category": "Contact",
+        "type": "email",
+        "value": "alex.morgan@shapestudio.com",
+        "isVisible": true
+      },
+      {
+        "id": "f_instagram",
+        "key": "instagram",
+        "label": "Instagram",
+        "category": "Social Media",
+        "type": "url",
+        "value": "@alexmorgan.design",
+        "isVisible": true
+      },
+      {
+        "id": "f_github",
+        "key": "github",
+        "label": "GitHub",
+        "category": "Social Media",
+        "type": "url",
+        "value": "alex-morgan",
+        "isVisible": true
+      },
+      {
+        "id": "f_linkedin",
+        "key": "linkedin",
+        "label": "LinkedIn",
+        "category": "Social Media",
+        "type": "url",
+        "value": "alex-morgan-design",
+        "isVisible": true
+      },
+      {
+        "id": "f_website",
+        "key": "website",
+        "label": "Portfolio Website",
+        "category": "Contact",
+        "type": "url",
+        "value": "https://alexmorgan.design",
+        "isVisible": true
+      },
+      {
+        "id": "f_whatsapp",
+        "key": "whatsapp",
+        "label": "WhatsApp",
+        "category": "Contact",
+        "type": "phone",
+        "value": "+15550192834",
+        "isVisible": true
+      }
+    ],
+    "createdAt": 1791888919082,
+    "updatedAt": 1791975319082
+  },
+  "test-user-123": {
+    "id": "test-user-123",
+    "fullName": "Jane Doe",
+    "phoneNumber": "+15551234567",
+    "jobTitle": "VP of Engineering",
+    "company": "TechCorp",
+    "fields": [
+      {
+        "id": "1",
+        "key": "github",
+        "label": "GitHub",
+        "category": "Social Media",
+        "type": "url",
+        "value": "janedoe",
+        "isVisible": true
+      },
+      {
+        "id": "2",
+        "key": "email",
+        "label": "Email",
+        "category": "Contact",
+        "type": "email",
+        "value": "jane@techcorp.com",
+        "isVisible": true
+      }
+    ],
+    "updatedAt": 1791975338151,
+    "createdAt": 1791975338151
+  },
+  "alex-shah-12345": {
+    "id": "alex-shah-12345",
+    "fullName": "Alex Shah",
+    "phoneNumber": "+15551234567",
+    "jobTitle": "Lead Product Designer",
+    "company": "Shape Studios",
+    "avatarUrl": null,
+    "bannerColor": "#8B80E8",
+    "themeId": "soft-lavender",
+    "qrMode": "interactive",
+    "fields": [
+      {
+        "id": "1",
+        "key": "email",
+        "label": "Email",
+        "category": "Other",
+        "type": "email",
+        "value": "alex.shah@example.com",
+        "isVisible": true
+      },
+      {
+        "id": "2",
+        "key": "whatsapp",
+        "label": "WhatsApp",
+        "category": "Other",
+        "type": "phone",
+        "value": "+15551234567",
+        "isVisible": true
+      },
+      {
+        "id": "3",
+        "key": "github",
+        "label": "GitHub",
+        "category": "Other",
+        "type": "url",
+        "value": "alexshah",
+        "isVisible": true
+      },
+      {
+        "id": "4",
+        "key": "linkedin",
+        "label": "LinkedIn",
+        "category": "Other",
+        "type": "url",
+        "value": "alex-shah",
+        "isVisible": true
+      },
+      {
+        "id": "5",
+        "key": "website",
+        "label": "Website",
+        "category": "Other",
+        "type": "url",
+        "value": "https://alexshah.design",
+        "isVisible": true
+      }
+    ],
+    "updatedAt": 1793622764451,
+    "createdAt": 1793622764451
+  }
+}

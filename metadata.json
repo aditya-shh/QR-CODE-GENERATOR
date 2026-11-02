@@ -1,0 +1,6 @@
+{
+  "name": "Shape QR",
+  "description": "Your Identity. Your Shape. Your QR. Advanced customizable vCard digital business cards, professional monochrome codes, and sculpted collectible QR designs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

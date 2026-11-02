@@ -1,0 +1,203 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-ivory: #F5F2EB;
+    --surface-cream: #FFFCF7;
+    --accent-lavender: #8B80E8;
+    --accent-peach: #F4BFA8;
+    --accent-sage: #8EBA9F;
+    --text-charcoal: #30303B;
+    --text-muted: #85818A;
+    --border-soft: rgba(224, 218, 206, 0.8);
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--bg-ivory);
+    color: var(--text-charcoal);
+  }
+}
+
+/* Tactile Soft Skeuomorphic Utilities */
+.tactile-panel {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFFCF7 100%);
+  border: 1px solid rgba(226, 220, 209, 0.85);
+  box-shadow: 
+    0 1px 3px rgba(48, 48, 59, 0.03),
+    0 8px 24px -6px rgba(48, 48, 59, 0.06),
+    0 20px 32px -12px rgba(48, 48, 59, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+.tactile-panel-lifted {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFFCF7 100%);
+  border: 1px solid rgba(222, 215, 203, 0.9);
+  box-shadow: 
+    0 2px 4px rgba(48, 48, 59, 0.04),
+    0 12px 28px -6px rgba(48, 48, 59, 0.08),
+    0 24px 44px -12px rgba(48, 48, 59, 0.06),
+    inset 0 1px 1px rgba(255, 255, 255, 1);
+}
+
+.tactile-btn-primary {
+  background: linear-gradient(180deg, #998FF0 0%, #8377E2 100%);
+  color: #FFFFFF;
+  border: 1px solid #7567D6;
+  box-shadow:
+    0 1px 2px rgba(78, 64, 180, 0.25),
+    0 4px 12px rgba(139, 128, 232, 0.35),
+    inset 0 1px 1px rgba(255, 255, 255, 0.5),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.tactile-btn-primary:hover {
+  background: linear-gradient(180deg, #A299F3 0%, #8B80E8 100%);
+  box-shadow:
+    0 2px 4px rgba(78, 64, 180, 0.25),
+    0 6px 16px rgba(139, 128, 232, 0.45),
+    inset 0 1px 1.5px rgba(255, 255, 255, 0.6),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+}
+
+.tactile-btn-primary:active {
+  transform: translateY(1.5px);
+  box-shadow:
+    0 1px 2px rgba(78, 64, 180, 0.2),
+    0 2px 4px rgba(139, 128, 232, 0.25),
+    inset 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.tactile-btn-secondary {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F5EE 100%);
+  color: #30303B;
+  border: 1px solid rgba(214, 206, 193, 0.9);
+  box-shadow:
+    0 1px 2px rgba(48, 48, 59, 0.05),
+    0 3px 6px rgba(48, 48, 59, 0.04),
+    inset 0 1px 0.5px rgba(255, 255, 255, 0.95),
+    inset 0 -1.5px 0 rgba(215, 207, 194, 0.6);
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.tactile-btn-secondary:hover {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F5F1E6 100%);
+  border-color: rgba(195, 185, 170, 1);
+  box-shadow:
+    0 2px 4px rgba(48, 48, 59, 0.06),
+    0 6px 12px rgba(48, 48, 59, 0.05),
+    inset 0 1px 1px rgba(255, 255, 255, 1),
+    inset 0 -1.5px 0 rgba(215, 207, 194, 0.7);
+}
+
+.tactile-btn-secondary:active {
+  transform: translateY(1.5px);
+  box-shadow:
+    0 1px 1px rgba(48, 48, 59, 0.04),
+    inset 0 2px 3px rgba(48, 48, 59, 0.08);
+}
+
+.tactile-btn-peach {
+  background: linear-gradient(180deg, #F9CDC1 0%, #F3B59B 100%);
+  color: #4A2B20;
+  border: 1px solid #E29B7F;
+  box-shadow:
+    0 1px 2px rgba(180, 100, 70, 0.2),
+    0 4px 12px rgba(244, 191, 168, 0.35),
+    inset 0 1px 1px rgba(255, 255, 255, 0.6),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.tactile-btn-peach:hover {
+  background: linear-gradient(180deg, #FBD6CB 0%, #F5BFA8 100%);
+  box-shadow:
+    0 2px 4px rgba(180, 100, 70, 0.25),
+    0 6px 14px rgba(244, 191, 168, 0.45),
+    inset 0 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+.tactile-btn-peach:active {
+  transform: translateY(1.5px);
+  box-shadow:
+    inset 0 2px 3px rgba(140, 70, 50, 0.2);
+}
+
+/* Recessed Inset Field */
+.tactile-input {
+  background: #F9F7F1;
+  border: 1px solid rgba(216, 209, 196, 0.9);
+  color: #30303B;
+  box-shadow:
+    inset 0 2px 4px rgba(48, 48, 59, 0.06),
+    inset 0 1px 2px rgba(48, 48, 59, 0.04),
+    0 1px 0 rgba(255, 255, 255, 0.85);
+  transition: all 0.2s ease;
+}
+
+.tactile-input:focus {
+  outline: none;
+  background: #FFFFFF;
+  border-color: #8B80E8;
+  box-shadow:
+    inset 0 2px 4px rgba(139, 128, 232, 0.08),
+    0 0 0 3px rgba(139, 128, 232, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+/* Tactile Slider Track & Thumb */
+.tactile-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  border-radius: 999px;
+  background: #E8E3D7;
+  box-shadow: inset 0 1px 2px rgba(48, 48, 59, 0.15), 0 1px 0 rgba(255, 255, 255, 0.9);
+  outline: none;
+}
+
+.tactile-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #FFFFFF 0%, #EDE7D9 100%);
+  border: 1px solid #C8C0B0;
+  box-shadow: 
+    0 2px 5px rgba(48, 48, 59, 0.18),
+    inset 0 1px 1px rgba(255, 255, 255, 1),
+    inset 0 -1px 1px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.12s ease;
+}
+
+.tactile-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+}
+
+.tactile-slider::-webkit-slider-thumb:active {
+  transform: scale(0.95);
+  background: linear-gradient(180deg, #EDE7D9 0%, #DFD8C8 100%);
+}
+
+/* Ceramic Texture Subtle Surface Overlay */
+.ceramic-texture {
+  background-color: #FFFCF7;
+  background-image: radial-gradient(rgba(48, 48, 59, 0.02) 1px, transparent 0);
+  background-size: 16px 16px;
+}
+
+/* Subtle Canvas Paper Grain */
+.paper-surface {
+  background-color: #FFFFFF;
+  background-image: 
+    radial-gradient(rgba(139, 128, 232, 0.02) 1px, transparent 0),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(250, 248, 242, 0.9) 100%);
+  box-shadow:
+    0 4px 6px -1px rgba(48, 48, 59, 0.05),
+    0 20px 40px -10px rgba(48, 48, 59, 0.09),
+    inset 0 0 0 1px rgba(220, 214, 202, 0.5);
+}
